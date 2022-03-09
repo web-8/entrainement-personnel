@@ -1,0 +1,104 @@
+/*format pc 1024px sur inspecter*/
+header{
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    padding-left: 3vw; 
+    padding-right: 3vw;
+    height: 10vw;
+}
+
+nav>a{
+    margin-left: 3vw;
+    text-decoration: none;
+    color: black;
+    font-size: 140%;
+    text-align: center;
+    padding: 8px;
+}
+
+nav>a:hover{
+    background-color: brown;
+    border-radius: 5px;
+    color: white;
+    transition: 1.5s;
+}
+
+.imglogo>img{
+    width: 140%;
+}
+/*fin du header*/
+
+.un{
+    width: 100%;
+    position: relative;
+}
+
+.un>img{
+    width: 100%;
+}
+
+.un>p{
+    font-size: 140%;
+    position: absolute;
+    bottom: 120px;
+    left: 100px;
+    color: white;
+    font-weight: bold;
+    line-height: 15px;
+}
+/*fin de la section un*/
+
+.deux{
+    width: 80%;
+    margin: auto;
+}
+h1{
+    font-size: 230%;
+}
+
+h3{
+    font-size: 140%;
+}
+
+/*debut des boites*/
+.figures{
+    display: flex;
+    justify-content: center;
+}
+
+figure{
+    width: 100%;
+    margin: 5px;
+}
+
+figure>img{
+    width: 100%;
+}
+
+.symbole{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+    
+.symbole>img{
+    width: 15%;
+    height: 15%;
+}
+
+figure>p{
+    font-size: 130%;
+}
+
+/*debut footer*/
+footer{
+    background-color: brown;
+}
+
+footer>p{
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 120%;
+}
